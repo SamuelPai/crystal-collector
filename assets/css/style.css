@@ -13,6 +13,7 @@ h1 {
 p {
     line-height: 200%;
     color: white;
+    margin-left: 10px;
 }
 #p {
     background-color: blue;
@@ -39,5 +40,33 @@ p {
     position: absolute;
     right: 1200px;
     margin-top: 15px;
+    
+}
+h2 {
+    margin-left: 10px;
+}
+#totalScore {
+    background-color: green;
+    width: 250px;
+    height: 30px;
+    margin-top: 25px;
+    margin-left: 15px;
+    
+}
+#totalScore2 {
+    background-color: green;
+    width: 250px;
+    height: 150px;
+    margin: 15px;
+}
+#numberToHit {
+    color: white;
+    font-size: 40px;
+}
+img {
+    height: 200px;
+    width: 200px;
+    margin-left: 15px;
+    margin-top: 225px;
     
 }
