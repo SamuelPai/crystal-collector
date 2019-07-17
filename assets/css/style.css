@@ -7,38 +7,40 @@ h1 {
 }
 #h1 {
     background-color: aquamarine;
-    width: 300px;
-    margin-left: 15px;
+    margin-bottom: 10px;
+    /* width: 300px;
+    margin-left: 675px; */
 }
 p {
-    line-height: 200%;
+    line-height: 125%;
     color: white;
     margin-left: 10px;
+    font-size: 14px;
 }
 #p {
     background-color: blue;
-    width: 500px;
-    margin-left: 15px;
+    /* width: 500px; */
+    /* margin-left: 570px; */
 
 }
 #targetNumber {
     background-color: orangered;
     width: 250px;
-    height: 200px;
+    height: 140px;
     margin-top: 15px;
     display: inline-block;
     position: absolute;
     left: 0;
-    margin-left: 15px;
+    margin-left: 570px;
 }
 #score {
     background-color: bisque;
     width: 200px;
-    height: 200px;
+    height: 140px;
     line-height: 200%;
     display: inline-block;
     position: absolute;
-    right: 1200px;
+    right: 640px;
     margin-top: 15px;
     
 }
@@ -47,17 +49,23 @@ h2 {
 }
 #totalScore {
     background-color: green;
-    width: 250px;
+    margin-top: 20px;
+    /* width: 250px;
     height: 30px;
     margin-top: 25px;
-    margin-left: 15px;
+    margin-left: 710px; */
     
+}
+#score2 {
+    font-size: 30px;
 }
 #totalScore2 {
     background-color: green;
-    width: 250px;
-    height: 150px;
+    margin-top: 10px;
+    /* width: 250px;
+    height: 120px;
     margin: 15px;
+    margin-left: 710px; */
 }
 #numberToHit {
     color: white;
@@ -67,6 +75,10 @@ img {
     height: 200px;
     width: 200px;
     margin-left: 15px;
-    margin-top: 225px;
+    margin-top: 170px;
     
 }
+body {
+    background-image: url("http://tanamen.com/img/d_default/cool-backgrounds/cool-backgrounds-shutterstock-5c74bcf45ccea.png");
+    text-align: center;
+  }

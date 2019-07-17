@@ -4,14 +4,19 @@
     <meta charset = "utf-8">
     <title>Crystal Collector</title>
     <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 <body>
-    <div id="h1">
+    <div id="h1" class="mx-auto" style="width: 300px; height: 80px;">
         <h1>Crystals Collector!</h1>
     </div>
-    
-    <div id="p">
+
+
+    <div id="p" class="mx-auto" style="width: 500px; height: 200px;">
         <p>You will be given a random number at the start of the game.</p>
         <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
         <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
@@ -39,15 +44,15 @@
         <img id="crystalFour" src="assets/images/crystal4.jpg" alt="Crystal 4">
     </div>
 
-    <div id="totalScore">
+    <div id="totalScore" class="mx-auto" style="width: 250px; height: 30px;">
         <p>Your total score is:</p>
     </div>
 
-    <div id="totalScore2">
+    <div id="totalScore2" class="mx-auto" style="width: 250px; height: 120px;">
         <p id="score2">0</p>
     </div>
 
-
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="assets/javascript/game.js"></script>
 </body>
